@@ -7,7 +7,7 @@ launch sample webapp:
 
 `./start-example.sh`
 
-In browser open url http://localhost:8980/jobs
+In browser open url http://localhost:8080/jobs
 
 Click on "Enqueue a simple job". You will get error response.
 Check Console to see jobrunr exception.
