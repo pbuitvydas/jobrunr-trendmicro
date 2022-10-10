@@ -1,3 +1,17 @@
+# Trend Micro Agent Issue reproduction
+This example reproduces jobrunr crash with trend micro app security java agent.
+
+To reproduce JobRunr crash
+
+launch sample webapp:
+
+`./start-example.sh`
+
+In browser open url http://localhost:8980/jobs
+
+Click on "Enqueue a simple job". You will get error response.
+Check Console to see jobrunr exception.
+
 # JobRunr example
 
 This repository shows an example how you can integrate JobRunr with [spring.io](https://spring.io/).

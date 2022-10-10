@@ -2,6 +2,15 @@ plugins {
     id 'java-platform'
 }
 
+subprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://maven.application.cloudone.trendmicro.com/release"
+        }
+    }
+}
+
 javaPlatform {
     allowDependencies()
 }
